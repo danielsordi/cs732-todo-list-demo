@@ -10,3 +10,8 @@ Each video in the tutorial series will be associated with a `git` branch, contai
 
 2. **step-1-displaying-todos:** In this step, we create some dummy data using ChatGPT, and then create a `<ul>` in `App.jsx`to display todo items in a list. We use JavaScript arrays' `map()` function to dynamically render a `<li>` for each todo item.
 
+3. **step-2-react-components:** In this step, we refactor our initial todo list to use two _React components_:
+
+   - `TodoList`: Is responsible for displaying a list of todo items.
+
+   - `TodoListItem`: Is responsible for displaying a single todo item.
