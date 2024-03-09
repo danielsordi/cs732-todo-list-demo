@@ -15,3 +15,5 @@ Each video in the tutorial series will be associated with a `git` branch, contai
    - `TodoList`: Is responsible for displaying a list of todo items.
 
    - `TodoListItem`: Is responsible for displaying a single todo item.
+
+4. **step-3-dayjs:** In this step, we use the `dayjs` _npm package_ to help us display our todo items' due dates in a more user-friendly way. We also use it to calculate whether a todo item is _overdue_ (i.e. its due date is in the past), and display a todo item's status of either "Complete", "Pending" (incomplete but with a due date still in the future), or "Overdue" (incomplete with a due date in the past).
