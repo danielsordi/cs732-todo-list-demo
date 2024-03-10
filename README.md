@@ -21,3 +21,5 @@ Each video in the tutorial series will be associated with a `git` branch, contai
 5. **step-4-styling-1:** In this step, we create two _CSS modules_ - one for `App.jsx` and one for `TodoList.jsx`. We add some styes to these modules to make our todo list look a little prettier.
 
 6. **step-5-styling-2:** In this step, we complete the styling of todo items by making their status buttons change color depending on the status.
+
+7. **step-6-completing-deleting:** In this step, we show how to use `useState()` to create a _stateful_ value in React. We also show how we can _propagate_ events - such as button clicks - up the component hierarchy using event props. Finally, we show how we can appropriately call the stateful value's _setter_ function to modify and remove todo items.
