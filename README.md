@@ -17,3 +17,5 @@ Each video in the tutorial series will be associated with a `git` branch, contai
    - `TodoListItem`: Is responsible for displaying a single todo item.
 
 4. **step-3-dayjs:** In this step, we use the `dayjs` _npm package_ to help us display our todo items' due dates in a more user-friendly way. We also use it to calculate whether a todo item is _overdue_ (i.e. its due date is in the past), and display a todo item's status of either "Complete", "Pending" (incomplete but with a due date still in the future), or "Overdue" (incomplete with a due date in the past).
+
+5. **step-4-styling-1:** In this step, we create two _CSS modules_ - one for `App.jsx` and one for `TodoList.jsx`. We add some styes to these modules to make our todo list look a little prettier.
