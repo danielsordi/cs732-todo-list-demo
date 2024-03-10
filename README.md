@@ -25,3 +25,5 @@ Each video in the tutorial series will be associated with a `git` branch, contai
 7. **step-6-completing-deleting:** In this step, we show how to use `useState()` to create a _stateful_ value in React. We also show how we can _propagate_ events - such as button clicks - up the component hierarchy using event props. Finally, we show how we can appropriately call the stateful value's _setter_ function to modify and remove todo items.
 
 8. **step-7-adding-todos:** In this step, we add a new component `NewTodoForm` - which lets users specify the description and due date of a new todo item. We also style this component, and hook up its functionality so that new todos can be successfully added to our app.
+
+9. **step-8-searching:** In this step, we add a search bar to our todo list, so we can easily filter the list according to the todos' descriptions. This is the final frontend-focused video in the series.
