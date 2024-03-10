@@ -23,3 +23,5 @@ Each video in the tutorial series will be associated with a `git` branch, contai
 6. **step-5-styling-2:** In this step, we complete the styling of todo items by making their status buttons change color depending on the status.
 
 7. **step-6-completing-deleting:** In this step, we show how to use `useState()` to create a _stateful_ value in React. We also show how we can _propagate_ events - such as button clicks - up the component hierarchy using event props. Finally, we show how we can appropriately call the stateful value's _setter_ function to modify and remove todo items.
+
+8. **step-7-adding-todos:** In this step, we add a new component `NewTodoForm` - which lets users specify the description and due date of a new todo item. We also style this component, and hook up its functionality so that new todos can be successfully added to our app.
