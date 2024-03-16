@@ -33,3 +33,5 @@ Each video in the tutorial series will be associated with a `git` branch, contai
 11. **step-10-routes-get-todos:** In this step, we separate our route handling code from `app.js` using Express routers, we create a Data Access file to handle the data access of our todo items, and we create a route to `GET` all todo items on a request to `/api/todos`.
 
 12. **step-11-complete-rest-api:** In this step, we complete the REST API - to create todos (using a `POST` request), update todos (using `PATCH`), and delete todos (using `DELETE`).
+
+13. **step-12-error-checking:** In this step, we add some more error checking to our REST API to help ensure that we return appropriate HTTP error codes rather than corrupting our database.
