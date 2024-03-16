@@ -28,4 +28,6 @@ Each video in the tutorial series will be associated with a `git` branch, contai
 
 9. **step-8-searching:** In this step, we add a search bar to our todo list, so we can easily filter the list according to the todos' descriptions. This is the final frontend-focused video in the series.
 
-10. **step-9-backend-intro:** IN this step, we introduce the backend project and the goals for the second half of the videos. We also setup a basic Node.js / Express server with some useful middleware, use of an `.env` file, and a "Hello world" route.
+10. **step-9-backend-intro:** In this step, we introduce the backend project and the goals for the second half of the videos. We also setup a basic Node.js / Express server with some useful middleware, use of an `.env` file, and a "Hello world" route.
+
+11. **step-10-routes-get-todos:** In this step, we separate our route handling code from `app.js` using Express routers, we create a Data Access file to handle the data access of our todo items, and we create a route to `GET` all todo items on a request to `/api/todos`.
