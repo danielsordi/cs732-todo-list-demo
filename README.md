@@ -37,3 +37,5 @@ Each video in the tutorial series will be associated with a `git` branch, contai
 13. **step-12-error-checking:** In this step, we add some more error checking to our REST API to help ensure that we return appropriate HTTP error codes rather than corrupting our database.
 
 14. **step-13-mongoose:** In this step, we use MongoDB instead of a JavaScript array in our backend to store our todos. We use the `mongoose` package to hook up our Express backend to MongoDB.
+
+15. **step-14-fetch:** In this step, we hook up the frontend to the backend with "fetch" statements (actually using the `axios` package). We use optimistic updates so that the UI on the frontend is updated immediately, optimistically assuming the backend request will succeed. Then, if the backend request fails, the UI is reverted to its prior state.
