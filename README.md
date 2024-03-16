@@ -35,3 +35,5 @@ Each video in the tutorial series will be associated with a `git` branch, contai
 12. **step-11-complete-rest-api:** In this step, we complete the REST API - to create todos (using a `POST` request), update todos (using `PATCH`), and delete todos (using `DELETE`).
 
 13. **step-12-error-checking:** In this step, we add some more error checking to our REST API to help ensure that we return appropriate HTTP error codes rather than corrupting our database.
+
+14. **step-13-mongoose:** In this step, we use MongoDB instead of a JavaScript array in our backend to store our todos. We use the `mongoose` package to hook up our Express backend to MongoDB.
