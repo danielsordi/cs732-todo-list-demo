@@ -39,3 +39,5 @@ Each video in the tutorial series will be associated with a `git` branch, contai
 14. **step-13-mongoose:** In this step, we use MongoDB instead of a JavaScript array in our backend to store our todos. We use the `mongoose` package to hook up our Express backend to MongoDB.
 
 15. **step-14-fetch:** In this step, we hook up the frontend to the backend with "fetch" statements (actually using the `axios` package). We use optimistic updates so that the UI on the frontend is updated immediately, optimistically assuming the backend request will succeed. Then, if the backend request fails, the UI is reverted to its prior state.
+
+16. **step-15-frontend-cleanup:** In this step, we use the [React signals package](https://github.com/preactjs/signals) to help refactor our code. We move all the todo-handling logic out of `App.jsx`, allowing it to focus on presentation. We instead create a hook called `useTodos()` which encapsulates the create / retrieve / update / delete (CRUD) todo functionality. We can import and use this hook in any React component that needs to access or modify todo items.
