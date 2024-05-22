@@ -1,3 +1,41 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  --button-color: rgb(214, 214, 214);
+  border: 0;
+  background-color: var(--button-color);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  padding: 5px 0;
+  color: rgb(61, 61, 61);
+}
+
+button:hover {
+  background-color: color-mix(in srgb, black 15%, var(--button-color));
+}
+
+button:active {
+  background-color: color-mix(in srgb, black 30%, var(--button-color));
+}
+
+input {
+  --input-color: rgb(87, 59, 148);
+  border: 2px solid transparent;
+  border-bottom: 2px solid var(--input-color);
+  outline: none;
+  padding: 5px 0 5px 10px;
+  font-size: large;
+}
+
+
+input:focus {
+  border: 2px solid var(--input-color);
+  border-radius: 4px;
+}

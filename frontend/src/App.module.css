@@ -1,0 +1,13 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: rgb(75, 185, 229);
+    padding: 10px 0;
+    text-align: center;
+    color:  white;
+    box-shadow: 0 5px 5px rgb(76, 130, 138);
+    margin-bottom: 10px;
+}
