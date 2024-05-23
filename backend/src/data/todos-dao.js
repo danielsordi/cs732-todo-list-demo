@@ -32,5 +32,5 @@ export async function updateTodo(id, isComplete) {
 }
 
 export async function deleteTodo(id) {
-    await Todo.findByIdAndUpdate(id);
+    await Todo.findByIdAndDelete(id);
 }
